@@ -9,8 +9,13 @@ import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const Banner = () => {
+<<<<<<< HEAD
   const fulltext = `Welcome to my profile! I'm a highly skilled Frontend Web Developer with a passion for creating impactful digital experiences. Based in Nigeria, I specialize in crafting visually stunning websites and apps, designing compelling user interfaces, and driving business growth through innovative solutions.
   Please feel free to explore my portfolio to get a glimpse of my previous projects and collaborations. I'm always eager to connect with fellow professionals, developers, and potential clients who are looking to bring their digital presence to new heights. I have contributed greatly to improving the business of the companies/establishments I have found myself by successfully managing projects resulting in increased performance and productivity. I'm a good team player.
+=======
+  const fulltext = `Welcome to my profile! I'm a highly skilled Web Developer, Graphic Designer, and Entrepreneur with a passion for creating impactful digital experiences. Based in Nigeria, I specialize in crafting visually stunning websites and apps, designing compelling graphics, and driving business growth through innovative solutions.
+  Please feel free to explore my portfolio to get a glimpse of my previous projects and collaborations. I'm always eager to connect with fellow professionals, entrepreneurs, and potential clients who are looking to bring their digital presence to new heights. I have contributed greatly to improving the business of the companies/establishments I have found myself by successfully managing projects resulting in increased performance and productivity. I'm a good team player.
+>>>>>>> e2d8a3c8c7639ff73065e9002b6e12b026b3213c
   Let's connect and explore how we can collaborate to create meaningful and visually captivating experiences.`;
 
   const [isExpanded, setIsExpanded] = useState(false);
@@ -36,10 +41,17 @@ export const Banner = () => {
                       <span
                         className="txt-rotate"
                         data-period="1000"
+<<<<<<< HEAD
                         data-rotate='["Frontend Web Developer"]'
                       >
                         {/* <span className="wrap">{text}</span> */}
                         <h3>A Frontend Web Developer</h3>
+=======
+                        data-rotate='["Fullstack Developer", "Graphic Designer", "Entrepreneur"]'
+                      >
+                        {/* <span className="wrap">{text}</span> */}
+                        <h3>A Fullstack Developer & Graphic Designer</h3>
+>>>>>>> e2d8a3c8c7639ff73065e9002b6e12b026b3213c
                       </span>
                     </h1>
                     <div>
@@ -68,7 +80,11 @@ export const Banner = () => {
                         />
                       </HashLink>
 
+<<<<<<< HEAD
                       <HashLink to="https://drive.google.com/file/d/15GA1awAv_HSSaSozuWzFz56X-gPe1dNF/view?usp=sharing">
+=======
+                      <HashLink to="https://drive.google.com/file/d/1t_7WWQKp4OKYNt29ejheH5f8xHB9ugjX/view?usp=drive_link">
+>>>>>>> e2d8a3c8c7639ff73065e9002b6e12b026b3213c
                         <button className="hireAnddownloadBtn2">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
