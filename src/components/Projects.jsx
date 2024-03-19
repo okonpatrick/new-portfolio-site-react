@@ -15,12 +15,8 @@ import { useState } from "react";
 export const Projects = () => {
   const [isProjectExpanded, projectExpanded] = useState(false);
   const fullskilltext =
-<<<<<<< HEAD
-    "I have a proven track record of contributing to highly productive and scalable projects. I specialize in creating visually appealing websites and captivating digital experiences that leave a lasting impression.  Throughout my career, I've played a pivotal role in driving growth for organizations by implementing strategic initiatives and optimizing workflows. By leveraging my expertise in web development, I've helped enhance operational efficiency and expand market reach, resulting in measurable results and increased brand visibility. With a collaborative approach and a passion for continuous learning, I'm committed to delivering exceptional outcomes and exceeding expectations.";
-=======
-    "I have a proven track record of contributing to highly productive and scalable projects. I specialize in creating visually appealing websites and captivating digital experiences that leave a lasting impression.  Throughout my career, I've played a pivotal role in driving growth for organizations by implementing strategic initiatives and optimizing workflows. By leveraging my expertise in web development and graphic design, I've helped enhance operational efficiency and expand market reach, resulting in measurable results and increased brand visibility. With a collaborative approach and a passion for continuous learning, I'm committed to delivering exceptional outcomes and exceeding expectations.";
->>>>>>> e2d8a3c8c7639ff73065e9002b6e12b026b3213c
 
+    "I have a proven track record of contributing to highly productive and scalable projects. I specialize in creating visually appealing websites and captivating digital experiences that leave a lasting impression.  Throughout my career, I've played a pivotal role in driving growth for organizations by implementing strategic initiatives and optimizing workflows. By leveraging my expertise in web development, I've helped enhance operational efficiency and expand market reach, resulting in measurable results and increased brand visibility. With a collaborative approach and a passion for continuous learning, I'm committed to delivering exceptional outcomes and exceeding expectations.";
   const toggleProjectExpand = () => {
     projectExpanded(!isProjectExpanded);
   };
